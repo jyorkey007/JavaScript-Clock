@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#div {
+  text-align: center;
+  margin-top: 32%;
+}
+
+#hour {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 100px;
+  background-color: black;
+}
+
+#min {
+  color: rgba(0, 255, 0, 1);
+  font-weight: bold;
+  font-size: 100px;
+  background-color: rgba(0, 0, 255, 1);
+}
+
+#sec {
+  color: rgba(0, 0, 255, 1);
+  font-weight: bold;
+  font-size: 100px;
+  background-color: rgba(0, 255, 0, 1);
+}
+
+#sec:hover {
+  background-color: #cc0000;
+}
+
+#start {
+  border: 1px solid #bbb;
+  border-radius: 10%;
+  background-color: #bbb;
+  margin-top: 15px;
+}
+
+#stop {
+  border: 1px solid #bbb;
+  border-radius: 10%;
+  background-color: #bbb;
+  margin-top: 15px;
+}
+
+#start:hover {
+  color: white;
+  background-color: green;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+#stop:hover {
+  color: white;
+  background-color: red;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+#colon {
+  font-size: 150px;
+}
+
+#colon2 {
+  font-size: 150px;
+}
